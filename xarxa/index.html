@@ -581,29 +581,29 @@
 <p>En aquest cas he afegit un adaptador amb Xarxa NAT, aquest tipus de Xarxa ens proporciona una direcció IP dinàmica que podrem utilitzar en qualsevol lloc i aquesta IP no cambiara.</p>
 <p>El primer que cal fer és anar a  <strong>Fitxer</strong> // <strong>Eines</strong> //  <strong>Network Manager</strong>.</p>
 <p>Aquí crearem una nova xarxa NAT.</p>
-<p><img alt="a" src="/img/xarxanat.png" /></p>
+<p><img alt="a" src="../img/xarxanat.png" /></p>
 <p>Un cop fet això ja puc assignar la xarxa NAT creada a la màquina.</p>
-<p><img alt="a" src="/img/xarxa.png" /></p>
+<p><img alt="a" src="../img/xarxa.png" /></p>
 <p>Si accedim al Ubuntu i fem un ip a podrem comprovar que rep la IP per DHCP.</p>
-<p><img alt="a" src="/img/ips.png" /></p>
+<p><img alt="a" src="../img/ips.png" /></p>
 <h2 id="opcions-xarxa">Opcions Xarxa</h2>
 <p>De la mateixa manera que podem posar una IP per DHCP podem posar-la manual i de diferents maneres.</p>
 <h2 id="ip-manual-per-terminal">IP manual per terminal</h2>
 <p>Per aixó tinc que obrir una finestra amb la terminal, i dirigirme hasta el fitxer 01-network-manager-all.yaml on podre cambiar els paràmetres de xarxa.</p>
-<p><img alt="a" src="/img/ruta.png" /></p>
+<p><img alt="a" src="../img/ruta.png" /></p>
 <p>I li assignare un IP manual diferent.</p>
-<p><img alt="a" src="/img/netplanmanual.png" /></p>
+<p><img alt="a" src="../img/netplanmanual.png" /></p>
 <p>Un cop fet això caldra aplicar els canvis amb la comanda netplan apply (nom fitxer).</p>
-<p><img alt="a" src="/img/guardar.png" /></p>
+<p><img alt="a" src="../img/guardar.png" /></p>
 <p>Si no apareix res significa que els canvis han estat aplicats correctament, en el cas contrari apareixeran els errors i la línia exacta.</p>
 <h2 id="ip-manual-interficie-grafica">IP manual interfície gràfica</h2>
 <p>Aquesta és la forma més facil per establir una IP com a usuari, ja que és molt més visual.</p>
 <p>Per això em dirigire a la secció de paràmetres, cap</p>
-<p><img alt="a" src="/img/m.png" /></p>
+<p><img alt="a" src="../img/m.png" /></p>
 <p>I ara em dirigire a la secció de xarxa, i aplicare la configuració, la Adreça de xarxa que volem donarli a l 'ordinador, la mascara de xarxa /24 i la adreça del router  (Passarel·la).</p>
-<p><img alt="a" src="/img/cable.png" /></p>
+<p><img alt="a" src="../img/cable.png" /></p>
 <p>I si posem ip a ens mostrara la ip assignada a la interfície enp0s3.</p>
-<p><img alt="a" src="/img/c.png" /></p>
+<p><img alt="a" src="../img/c.png" /></p>
 <p xmlns:cc="http://creativecommons.org/ns#" >Aquesta obra té la llicència <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref= chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px ;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical -align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical -align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical -align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
 
 
